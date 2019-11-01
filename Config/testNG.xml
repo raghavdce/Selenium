@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG">
+	<test name="TEst Annotation">
+		<classes>
+			<class name="testNG.TestAnnotation">
+			</class>
+		</classes>
+	</test>
+	<test name="First Program">
+		<classes>
+			<class name="testNG.TestPriority"></class>
+		</classes>
+	</test>
+	<test name="second Program">
+		<classes>
+			<class name="testNG.FirstTestNGProgram"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG" parallel="tests">
+	<test name="TEst facebook on Chrome">
+	<parameter name="browser" value="CRM" />
+		<classes>
+			<class name="testNG.TestCrossBrowser">
+			</class>
+		</classes>
+	</test>
+	<test name="Test fcebook on Firefox">
+		<parameter name="browser" value="FF" />
+		<classes>
+			<class name="testNG.TestCrossBrowser"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testNG" duration-ms="52" started-at="2019-10-30T06:09:05Z" finished-at="2019-10-30T06:09:05Z">
+    <groups>
+      <group name="A">
+        <method signature="TestGrouping.A()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="A" class="testNG.TestGrouping"/>
+        <method signature="TestGrouping.AB()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="AB" class="testNG.TestGrouping"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="TestGrouping.AB()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="AB" class="testNG.TestGrouping"/>
+        <method signature="TestGrouping.B()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="B" class="testNG.TestGrouping"/>
+      </group> <!-- B -->
+    </groups>
+    <test name="TEst Grouping" duration-ms="52" started-at="2019-10-30T06:09:05Z" finished-at="2019-10-30T06:09:05Z">
+      <class name="testNG.TestGrouping">
+        <test-method status="PASS" signature="A()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="A" duration-ms="20" started-at="2019-10-30T11:39:05Z" finished-at="2019-10-30T11:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="AB()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="AB" duration-ms="2" started-at="2019-10-30T11:39:05Z" finished-at="2019-10-30T11:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AB -->
+        <test-method status="PASS" signature="B()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="B" duration-ms="2" started-at="2019-10-30T11:39:05Z" finished-at="2019-10-30T11:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="B()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="B" duration-ms="2" started-at="2019-10-30T11:39:05Z" finished-at="2019-10-30T11:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method status="PASS" signature="B()[pri:0, instance:testNG.TestGrouping@68c4039c]" name="B" duration-ms="1" started-at="2019-10-30T11:39:05Z" finished-at="2019-10-30T11:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- testNG.TestGrouping -->
+    </test> <!-- TEst Grouping -->
+  </suite> <!-- testNG -->
+</testng-results>

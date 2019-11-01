@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG grid">
+	<test name="TEst grid using chrome">
+		<classes>
+			<class name="testNG.Node1">
+			</class>
+		</classes>
+	</test>
+	<test name="Test Grid Using FF">
+		<classes>
+			<class name="testNG.Node2"></class>
+		</classes>
+	</test>
+</suite>

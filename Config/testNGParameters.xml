@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG">
+	<test name="Test parameters">
+	<parameter name="category" value="Books"/>
+	<parameter name="searchBox" value="wings of fire"/>
+		<classes>
+			<class name="testNG.TestAmazonwithParameters">
+			</class>
+		</classes>
+	</test>
+</suite>

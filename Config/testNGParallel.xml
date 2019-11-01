@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG" parallel="tests">
+	<test name="Test Facebook">
+		<classes>
+			<class name="testNG.loginToFacebook">
+			</class>
+		</classes>
+	</test>
+	<test name="Test Amazon">
+		<classes>
+			<class name="testNG.openGoogle">
+			</class>
+		</classes>
+	</test>
+</suite>

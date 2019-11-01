@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNG grid]">
+  <test name="TEst grid using chrome(failed)">
+    <classes>
+      <class name="testNG.Node1">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testNG.Node1 -->
+    </classes>
+  </test> <!-- TEst grid using chrome(failed) -->
+  <test name="Test Grid Using FF(failed)">
+    <classes>
+      <class name="testNG.Node2">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testNG.Node2 -->
+    </classes>
+  </test> <!-- Test Grid Using FF(failed) -->
+</suite> <!-- Failed suite [testNG grid] -->
