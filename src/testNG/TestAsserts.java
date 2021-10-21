@@ -53,9 +53,9 @@ public class TestAsserts {
 	@Test
 	public void g() {
 		driver.get("http://www.flipkart.com");
-		/*driver.findElement(By.name("UserName")).sendKeys("Mindtree\\M1030042");
-		driver.findElement(By.name("Password")).sendKeys("Rumble@35");
-		driver.findElement(By.id("submitButton")).click();*/
+		driver.findElement(By.name("UserName")).sendKeys("Username");
+		driver.findElement(By.name("Password")).sendKeys("password");
+		driver.findElement(By.id("submitButton")).click();
 		
 		String title = driver.getTitle();
 		s_assert = new SoftAssert();
