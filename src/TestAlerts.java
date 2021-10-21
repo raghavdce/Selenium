@@ -20,8 +20,6 @@ public class TestAlerts {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.navigate().to(url);
-		driver.findElement(By.id("userNameInput")).sendKeys("M1030042@mindtree.com");
-		driver.findElement(By.id("passwordInput")).sendKeys("Rumble@44");
 		driver.findElement(By.id("submitButton")).click();
 	}
 	
