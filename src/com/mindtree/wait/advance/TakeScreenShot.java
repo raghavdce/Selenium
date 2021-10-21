@@ -31,10 +31,8 @@ public class TakeScreenShot {
 
 	public void takeScreenShot() {
 		invokeBrowser("https://www.w3schools.com");
-		driver.findElement(By.id("userNameInput")).sendKeys("Mindtree\\M1030042");
-		driver.findElement(By.id("passwordInput")).sendKeys("Rumble@34");
 		driver.findElement(By.id("submitButton")).click();
-		driver.findElement(By.linkText("Try it Yourself »")).click();
+		driver.findElement(By.linkText("Try it Yourself Â»")).click();
 		childWindow = driver.getWindowHandles().toArray()[1].toString();
 		driver.switchTo().window(childWindow);
 		destinationFile = new File("D:\\MediaFiles\\Training\\201-Selenium\\W3schools.PNG");
