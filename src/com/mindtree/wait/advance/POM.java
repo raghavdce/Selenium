@@ -29,8 +29,6 @@ public class POM {
 		driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
 		driver.get("https://www.barnesandnoble.com/");
-		driver.findElement(By.id("userNameInput")).sendKeys("Mindtree\\M1030042");
-		driver.findElement(By.id("passwordInput")).sendKeys("Rumble@37");
 		driver.findElement(By.id("submitButton")).click();
 		driver.findElement(By.className("icon-close-modal")).click();
 		driver.findElement(By.id("signInLink")).click();
