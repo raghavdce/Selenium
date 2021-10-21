@@ -28,9 +28,7 @@ public class SwitchToWindow {
 
 	public void switchToFrames() throws Exception {
 		invokeBrowser("https://www.w3schools.com/js/tryit.asp?filename=tryjs_openwindow");
-		/*driver.findElement(By.id("userNameInput")).sendKeys("Mindtree\\M1030042");
-		driver.findElement(By.id("passwordInput")).sendKeys("Rumble@34");
-		driver.findElement(By.id("submitButton")).click();*/
+		driver.findElement(By.id("submitButton")).click();
 		driver.switchTo().frame("iframeResult");
 		driver.findElement(By.xpath("//input[@value=\"Open Window\"]")).click();
 		parentWindow = driver.getWindowHandle().toString();
